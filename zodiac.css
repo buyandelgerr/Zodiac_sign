@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: rgb(91, 76, 76);
+    
+}
+.background {
+    width: 100%;
+    height: 100vh;
+    background: url(https://patrioty.org.ua/images/2021/08/06161934_creenshot_6.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+}
+.container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    width: 90%;
+    height: 550px;
+    background: transparent;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.container .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 58%;
+    height: 100%;
+    background: url(https://patrioty.org.ua/images/2021/08/06161934_creenshot_6.png);
+    padding: 80px;
+    color: #e4e4e4;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.text-sci h2 span {
+    font-size: 25px;
+}
+.container .side-box {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 42%;
+    height: 100%;
+}
+.side-box m-box {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45%;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #e4e4e4;
+    border: white;
+}
+.m-box h2 {
+    margin-top: 80px;
+    font-size: 30px;
+    text-align: center;
+    color: azure;
+}
+.side-box .te-box{
+    margin: 50px;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    background: transparent;
+    border: white;
+    border-radius: 5px;
+}
+.te-box p { 
+    margin-top: 75px;
+    font-size: 15px;
+    text-align: center;
+    color: azure;
+}
+.text-sci .input-box {
+    position: relative;
+    width: 340px;
+    height: 50px;
+    border-bottom: 2px solid #e4e4e4;
+    margin: 30px, 0;
+    margin-top: 25px;
+}
+.input-box input {
+    width: 100%;
+    height:  100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #e4e4e4;
+    font-weight: 500;
+    padding-right: 28px;
+}
+.text-sci .button {
+    width: 40px;
+    background: rgb(70, 37, 37);
+    outline:rgb(91, 76, 76);
+    margin-top: 10px;
+    height: 20px;
+} 
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
